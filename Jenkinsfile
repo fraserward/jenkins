@@ -7,5 +7,5 @@ node{
     sh "${mvnHome}/bin/mvn package"
   }
   stage('EMail Notification'){
-    mail bcc: '', body: 'THis is a test', cc: '', from: '', replyTo: '', subject: 'Test', to: 'Me'
+    mail bcc: '', body: 'THis is a test', cc: '', from: '', replyTo: '', subject: 'Test', to: 'Me' }
 }
